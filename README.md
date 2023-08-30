@@ -1,4 +1,4 @@
-# Site Institucional - Fast Totem
+# Fast Totem
 
 Este repositório contém o código-fonte e informações relacionadas ao projeto Site Institucional do Fast Totem, uma plataforma de monitoramento e manutenção de totens de autoatendimento em estabelecimentos de fast food.
 
