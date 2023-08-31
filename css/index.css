@@ -179,3 +179,35 @@ a {
   box-shadow: 0 0 15px rgba(245, 142, 7, 0.2);
   filter: brightness(1.03);
 }
+
+.cadastro-button-active {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(245, 142, 7, 0.2);
+  filter: brightness(1.03);
+}
+
+.floating-menu {
+  filter: brightness(1.03);
+  position: fixed; 
+  width: 92%;
+  height: 60%;
+  top: 44.4%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #F58E07;
+  padding: 10px;
+  display: none;
+  z-index: 1000;
+  font-family: "Montserrat";
+}
+
+.exit-icon {
+  font-size: 2vw;
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
