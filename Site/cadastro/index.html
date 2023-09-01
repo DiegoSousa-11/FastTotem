@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles-forms.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="../js/cadastro.js" defer></script>
+    <title>Fast Totem | Cadastro</title>
+</head>
+<body>
+    <main>
+        <section>
+            <img src="../assets/FastToten - Logo.png" alt="Logo Fast Toten">
+            <h1>FastTotem</h1>
+        </section>
+    
+        <section>
+            <h2>Cadastro</h2>
+            
+            <form>
+                <label>Nome da loja</label>
+                <input type="text" name="nomeEmpresa" placeholder="Ex: Fast Totem">
+    
+                <label>CNPJ da empresa</label>
+                <input type="text" name="endereco" placeholder="Insira seu CNPJ">
+
+                <label>CEP</label>
+                <input type="text" name="cep" id="cepInput" placeholder="Insira seu CEP">
+                <span id="alertCep">*O informado está incorreto</span>
+
+                <label>Rua</label>
+                <input disabled type="text" id="ruaInput" name="endereco" placeholder="Ex: Rua das flores">
+
+                <label>Bairro</label>
+                <input disabled type="text" id="bairroInput" name="endereco" placeholder="Ex: Jardim Floridoss">
+
+                <label>Numero</label>
+                <input type="number" name="endereco" placeholder="Insira o número">
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

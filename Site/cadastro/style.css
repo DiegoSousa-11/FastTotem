@@ -1,0 +1,12 @@
+form input {
+    margin-bottom: 1.5rem !important;
+}
+
+#alertCep {
+    display: none;
+    color: rgb(255, 54, 54);
+    font-size: .8rem;
+
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+}

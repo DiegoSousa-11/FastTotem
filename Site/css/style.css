@@ -41,7 +41,7 @@ a {
 }
 
 .card {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   width: 30%; 
   background-color: #909090;
   padding: 20px;
@@ -137,7 +137,7 @@ a {
 .buttons{
   display: flex;
   flex-direction: row;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   width: 75%;
   height: fit-content;
   justify-content: space-between;
@@ -198,7 +198,7 @@ a {
   padding: 10px;
   display: none;
   z-index: 1000;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
 }
 
 .exit-icon {
